@@ -1,0 +1,131 @@
+body
+{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    color: #2f4f4f;
+    margin-bottom: 10px;
+    /*font-family: serif;*/
+    /* font-weight: bold;*/
+} 
+
+/*  .title
+{
+    font:32px Helvetica, Arial, sans-serif;
+}  */
+
+
+.nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li
+{
+    display: inline-block; /* items horizontales */
+}
+
+.nav a
+{
+    /*color: white;*/ /* color de la fuente*/
+    background-color: #13a4a4; /* color de la caja */
+    padding: 5px 15px; /* valor_vertical px  valor_hor px - 
+    valor_arriba px valor_abajo px valor_derecha px 
+    valor_izq px */
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .featured
+{
+    background-color: orange;
+    box-shadow: 10px 2px #6f9090; /* colocar sombra a la
+    caja de un elemento
+    valor_horizontal px valor_vertical px */
+}
+
+a:link
+{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: purple;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+a:active
+{
+    color: red;
+}
+
+.footer
+{
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a
+{
+    color: initial;
+    text-decoration: underline;
+}
+
+.padded
+{
+    font-size: 16px;
+    padding: 2em;
+    background-color: lightcyan;
+}
+
+.box
+{
+    padding: 1em; /* calculated_value = 1em * font-size */
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-small
+{
+    font-size: 12px;
+}
+
+.box-large
+{
+    font-size: 18px;
+}
+
+.slogan
+{
+    font-size: 1.3333em; 
+    /*calculate_value = 1.2em * font-size-body(16px)=19.2px*/
+    padding: 1em; /*calculated_value = 1em * font-size(16px)*/
+    background-color: burlywood;
+    width: 10em;
+    text-align: center;
+}
+
+:root
+{
+    font-size: 1em;
+}
+
+ul
+{
+    font-size: 0.8rem;
+}
+
+
