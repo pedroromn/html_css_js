@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings - headers</title>
+    <style>
+        .title{
+            color: rgba(173, 30, 30, 0.897);
+            margin-bottom: 10px;
+        }
+
+        .nav
+        {
+            margin-top: 10px;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .nav li
+        {
+            display: inline-block; /* items horizontales */
+        }
+
+        .nav a
+        {
+            /*color: white;*/ /* color de la fuente*/
+            background-color: rgba(203, 104, 228, 0.664); /* color de la caja */
+            padding: 5px 15px; /* valor_vertical px  valor_hor px - 
+            valor_arriba px valor_abajo px valor_derecha px 
+            valor_izq px */
+            border-radius: 2px;
+            text-decoration: none;
+        }
+
+        a:link
+        {
+            color: rgba(9, 9, 155, 0.849);
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            color: purple;
+        }
+
+        a:hover
+        {
+            text-decoration: none;
+        }
+
+        a:active
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">BBC</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="/options">Display Options</a></li>
+                <li><a href="/access">Accessibility Help</a></li>
+                <li><a href="/mobile">Mobiles</a></li>
+            </ul>
+        </nav>
+        <form target="/search">
+            <input type="search" name="q">
+            <input type="submit" value="Search">
+        </form>
+<!--         <hgroup>
+            <h1>HTML5 (including next generation 
+                addition still in development)
+            </h1>
+            <h2>Draft standard &mdash;
+                12 May 2010
+            </h2>
+        </hgroup>  -->  
+    </header>
+    <main>
+        <h1>Main heading</h1>
+        <p>Some text</p>
+        <section>
+            <h1>Level 2 heading - Section 1</h1>
+            <p>Some more text</p>
+            <article>
+                <h1>level 3 heading - Article 1</h1>
+                <p>A bit more text</p>
+            </article>
+        </section>
+        <section>
+            <h1>Another level 2 heading - Section 2</h1>
+            <p>The last bit of text</p>
+        </section>
+    </main>
+</body>
+</html>
